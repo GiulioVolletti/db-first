@@ -1,0 +1,18 @@
+Tabella: Auto usate
+
+id		PRIMARY_KEY -	AUTO_INCREMENT	- UNIQUE
+marca 		- stringa -	VARCHAR(15)	- NOTNULL
+modello		- stringa -	VARCHAR(20)	- NOTNULL
+tipo		- stringa -	VARCHAR(10)	- NOTNULL
+motore		- stringa -	VARCHAR(10)
+colore		- stringa -	VARCHAR(10)
+porte 		- numero -	TINYINT
+cambio		- stringa -	VARCHAR(20)	- NOTNULL
+anno		- data -	YEAR
+km		- numero -	MEDIUMINT
+potenza		- numero -	SMALL
+emissioni-euro	- numero -	TINYINT
+proprietari	- numero -	TINYINT
+prezzo		- numero -	FLOAT(8,2)	- NOTNULL
+foto 		- stringa - 	TEXT		- DEFAULT ("url")
+N telaio (VIN)	- stringa -	VARCHAR(17)	- UNIQUE
